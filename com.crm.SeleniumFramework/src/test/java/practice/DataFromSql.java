@@ -9,7 +9,6 @@ import com.mysql.jdbc.Statement;
 public class DataFromSql {
 
 	public static void main(String[] args) throws Throwable {
-		// TODO Auto-generated method stub
 		//step 1:register or load the Mysql database
 		Driver driverref=new Driver();
 		DriverManager.registerDriver(driverref);
