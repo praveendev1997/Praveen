@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.DataProvidrTest">
+      <class name="practice.Amazon">
         <methods>
-          <include name="companyDetails" invocation-numbers="0 1 2"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- practice.DataProvidrTest -->
+      </class> <!-- practice.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
